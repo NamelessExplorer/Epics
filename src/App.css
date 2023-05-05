@@ -7,6 +7,88 @@
   pointer-events: none;
 }
 
+.navbar{
+  background-color:rgba(21,13,67,1);
+  border-bottom: 1px solid grey;
+}
+.box{
+  border-radius: 12px;
+  background: #54d1ff;
+  padding: 20px;
+  width: 100px;
+  height: 55px;
+  padding-left: 11%; 
+  margin-left: 2.5%;
+}
+
+.p{
+  color:white;
+}
+
+.box-1{
+  border-radius: 12px;
+  background: rgba(65,62,109,1);
+   padding: 50px;
+  width: 400px;
+  height: 180px;
+  padding-left: 11%; 
+  margin-left: 2.5%;
+  margin-bottom:2.5%;
+  margin-top:2.5%;
+
+}
+
+.box-2{
+  border-radius: 12px;
+  background: rgba(65,62,109,1);
+  padding: 50px;
+  width: 400px;
+  height: 90px;
+  padding-left: 11%; 
+  margin-left: 2.5%;
+  margin-bottom:2.5%;
+  margin-top:2.5%;
+}
+
+.box-3{
+  border-radius: 12px;
+  background: rgba(65,62,109,1);
+  padding: 50px;
+  width: 400px;
+  height: 180px;
+  padding-left: 11%; 
+  margin-left: 2.5%;
+  margin-bottom:2.5%;
+  margin-top:2.5%;
+}
+
+.row{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: nowrap !important;
+}
+
+.column{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: nowrap !important;
+  margin-left: 0px;
+  padding-left: 0px;
+
+}
+
+.stat-1{
+  border-radius: 12px;
+  background: #54d1ff;
+  padding: 20px;
+  width: 100px;
+  height: 55px;
+  padding-left: 11%;
+  margin-left: 2.5%;
+  border-bottom: 1px solid grey;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +108,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.map{
+  filter: opacity(0.5) drop-shadow(0rem 0.1rem 0.1rem crimson);
+  border: 1px white;
 }
 
 @keyframes App-logo-spin {
