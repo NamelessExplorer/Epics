@@ -13,7 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
-      <div className="flex-container column" style={{backgroundColor: "rgba(21,13,67,1)"}}>
+      <div className="page flex-container column" style={{backgroundColor: "rgba(21,13,67,1)"}}>
         <Navbar />
         <div className='flex-container row'>
           <div className="flex-container column" style={{ width: "15.5%", height: "12.5%", backgroundColor: "rgba(21,13,67,1)" }}>
@@ -23,7 +23,7 @@ function App() {
             <Map />
           </div>
 
-          <div className="flex-container column" style={{ backgroundColor: "rgba(21,13,67,1)" }}>
+          <div className="flex-container column" style={{width:"41.5%", backgroundColor: "rgba(21,13,67,1)" }}>
             <Data />
           </div>
 

@@ -7,15 +7,21 @@
   pointer-events: none;
 }
 
+.page{
+  width: 100%;
+}
+
 .navbar{
   background-color:rgba(21,13,67,1);
   border-bottom: 1px solid grey;
+  width:100%;
 }
+
 .box{
   border-radius: 12px;
   background: #54d1ff;
   padding: 20px;
-  width: 100px;
+  width: 10%;
   height: 55px;
   padding-left: 11%; 
   margin-left: 2.5%;
@@ -28,44 +34,61 @@
 .box-1{
   border-radius: 12px;
   background: rgba(65,62,109,1);
-   padding: 50px;
-  width: 400px;
-  height: 180px;
-  padding-left: 11%; 
+  height: 30.33%;
+  padding-left: 2.5%; 
   margin-left: 2.5%;
-  margin-bottom:2.5%;
-  margin-top:2.5%;
-
+  padding-right:9.5%;
+  margin-right: 9%;
+  margin-bottom:7.5%;
+  padding-bottom:15.5%;
+  margin-top:5.5%;
+  padding-top:5.5%;
+  text-align: center;
 }
 
 .box-2{
   border-radius: 12px;
   background: rgba(65,62,109,1);
-  padding: 50px;
-  width: 400px;
-  height: 90px;
-  padding-left: 11%; 
-  margin-left: 2.5%;
-  margin-bottom:2.5%;
-  margin-top:2.5%;
+  max-width: 80%;
+  text-align: center;
+  margin-bottom: 10%;
 }
 
 .box-3{
   border-radius: 12px;
   background: rgba(65,62,109,1);
-  padding: 50px;
-  width: 400px;
-  height: 180px;
-  padding-left: 11%; 
+  height: 30.33%;
+  padding-left: 2.5%; 
   margin-left: 2.5%;
-  margin-bottom:2.5%;
-  margin-top:2.5%;
+  padding-right:9.5%;
+  margin-right: 9%;
+  margin-bottom:7.5%;
+  padding-bottom:15.5%;
+  margin-top:5.5%;
+  padding-top:5.5%;
+  text-align: center;
+  
 }
 
 .row{
   display:flex;
   flex-direction:row;
   flex-wrap: nowrap !important;
+  margin-right: 0;
+}
+
+.Aspiring{
+padding-top: 5%;
+padding-bottom: 5%;
+margin-bottom:0;
+}
+
+.Rising{
+  padding-top: 5%;
+}
+
+.Model{
+  padding-top: 5%;
 }
 
 .column{
@@ -82,8 +105,7 @@
   background: #54d1ff;
   padding: 20px;
   width: 100px;
-  height: 55px;
-  padding-left: 11%;
+  padding-left: 9%;
   margin-left: 2.5%;
   border-bottom: 1px solid grey;
 }
