@@ -1,7 +1,20 @@
-import map from "./assets/mp.png";
+import { Helmet } from "react-helmet";
 
-export default function Map(){
-    return(
-        <img src={map} class="map" style={{maxWidth:"35%", maxHeight:"35%",paddingTop:"16%", marginTop:"24%", marginLeft:"30%", marginRight:"15%" }}/>
+
+export default function Map() {
+    return (
+
+        <>
+            <Helmet>
+                <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+                <script src="https://www.amcharts.com/lib/3/maps/js/indiaLow.js"></script>
+                <script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+            </Helmet>
+            <script>
+                
+            </script>
+            <div id="chartdiv" />
+        </>
+
     )
 }

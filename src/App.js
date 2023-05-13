@@ -1,33 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/navbar';
-import Menu from './Components/menu';
-import Map from './Components/map';
-import Data from './Components/data';
+import page1 from './page1';
+import DataPage from './Components/DataPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { Helmet } from 'react-helmet';
 
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
 
 function App() {
   return (
     <>
-      <div className="page flex-container column" style={{backgroundColor: "rgba(21,13,67,1)"}}>
+
+      <Helmet>
+        <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+        <script src="https://www.amcharts.com/lib/3/maps/js/indiaLow.js"></script>
+        <script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+      </Helmet>
+      <div className="page flex-container column">
         <Navbar />
-        <div className='flex-container row'>
-          <div className="flex-container column" style={{ width: "15.5%", height: "12.5%", backgroundColor: "rgba(21,13,67,1)" }}>
-            <Menu />
-          </div>
-          <div className="flex-container row" style={{ width: "40%", backgroundColor: "rgba(21,13,67,1)" }}>
-            <Map />
-          </div>
-
-          <div className="flex-container column" style={{width:"41.5%", backgroundColor: "rgba(21,13,67,1)" }}>
-            <Data />
-          </div>
-
-        </div>
+        <DataPage />
       </div>
     </>
   );
